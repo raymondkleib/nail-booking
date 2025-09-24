@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>💅✨ Sophia’s Nail Studio — Book Now</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
+    <style>
+      :root{
+        --bg:#fff9fc;          /* cotton-candy pink */
+        --card:#ffffff;
+        --ink:#2c2a2a;
+        --sub:#6b6873;         /* soft gray */
+        --accent:#f7a8c8;      /* pastel pink */
+        --accent-2:#b9e0ff;    /* baby blue */
+        --accent-3:#fdf0a8;    /* pale yellow */
+        --shadow: 0 10px 30px rgba(246, 123, 182, 0.18);
+        --radius: 22px;
+      }
+      html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);font-family:"Quicksand", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;}
+      .wrap{max-width:980px;margin:0 auto;padding:20px;}
+      header{position:relative;display:flex;flex-direction:column;gap:14px;align-items:center;text-align:center;padding:28px 18px 10px;}
+      .badge{display:inline-flex;align-items:center;gap:10px;background:linear-gradient(135deg,var(--accent),var(--accent-2));padding:8px 14px;border-radius:999px;color:#fff;font-weight:700;box-shadow:var(--shadow);}
+      h1{font-family:"Nunito", sans-serif;font-weight:900;letter-spacing:0.2px;font-size:clamp(26px,5vw,42px);margin:6px 0 0;}
+      .sub{color:var(--sub);font-size:clamp(14px,2.6vw,18px);max-width:650px}
+      .card{background:var(--card);border-radius:var(--radius);box-shadow:var(--shadow);padding:18px;margin:22px 0;}
+      .grid{display:grid;grid-template-columns:1fr;gap:16px}
+      @media (min-width:900px){.grid{grid-template-columns: 1.1fr 1fr}}
+      .pill{display:inline-flex;align-items:center;gap:8px;border-radius:999px;background:#ffeef6;color:#7a2f4b;padding:8px 12px;font-weight:600;margin:6px 6px 0 0}
+      .cta{display:inline-flex;align-items:center;gap:10px;border:0;border-radius:14px;background:var(--ink);color:#fff;font-weight:800;padding:14px 18px;text-decoration:none;box-shadow:var(--shadow)}
+      .cta:hover{transform:translateY(-1px)}
+      .note{font-size:14px;color:var(--sub)}
+      .list{display:flex;flex-wrap:wrap;gap:10px;margin:10px 0 0}
+      .footer{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;color:var(--sub);font-size:13px;margin:26px 0 40px}
+      /* Calendly box */
+      .sched{min-height:660px;border-radius:var(--radius);overflow:hidden}
+      /* floating sparkles */
+      .sparkle{position:absolute;opacity:.65;}
+      .s1{top:6px;left:22px;}
+      .s2{top:10px;right:20px;}
+      .s3{bottom:-6px;right:60px;}
+      .brand{display:flex;align-items:center;gap:10px}
+      .brand svg{width:36px;height:36px}
+      .brand b{font-size:clamp(18px,3.2vw,24px)}
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <span class="badge" aria-label="booking status">💅 Book your Appointment</span>
+        <div class="brand">
+          <!-- cute nail polish bottle icon -->
+          <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M22 6h20v8H22z" fill="#2c2a2a"/>
+            <path d="M18 22c0-4.418 3.582-8 8-8h12c4.418 0 8 3.582 8 8v22c0 6.627-5.373 12-12 12h-4c-6.627 0-12-5.373-12-12V22z" fill="#f7a8c8"/>
+            <path d="M20 28h24v8H20z" fill="#b9e0ff"/>
+          </svg>
+          <b>Sophia’s Nail Studio</b>
+        </div>
+        <h1>Fresh sets, New Look ✨</h1>
+        <p class="sub">Pick a time that fits your schedule. </b> Your slot disappears for others the moment you book</p>
+        <!-- decorative sparkles -->
+        <div class="sparkle s1">✨</div>
+        <div class="sparkle s2">🌸</div>
+        <div class="sparkle s3">✨</div>
+      </header>
+
+      <section class="grid">
+        <div class="card">
+          <h2 style="margin:6px 0 10px">1) Quick Options</h2>
+          <div class="list">
+            <a class="cta" href="https://calendly.com/sophia-kushlak/nail-appointment?month=2025-09" target="_blank" rel="noopener">Open full‑screen booking</a>
+
+          </div>
+          <p class="note">Tap the button to open full‑screen booking if the embed doesn’t load.</p>
+        </div>
+        <div class="card">
+          <h2 style="margin:6px 0 10px">Studio Policies</h2>
+          <ul style="margin:0 0 6px 18px;line-height:1.6">
+            <li>Please arrive with clean nails .</li>
+            <li>Grace period: 10 minutes.</li>
+            <li>Cancel or reschedule via your confirmation email/text.</li>
+          </ul>
+          <p class="note">Questions? DM me on Instagram: <b>@nailsbysophiaunh</b></p>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2 style="margin:6px 0 14px">Services & Pricing</h2>
+        <div class="list">
+          <span class="pill">$20 Gel X </span>
+          <span class="pill">~90 min</span>
+          <span class="pill">Student-friendly</span>
+        </div>
+        <ul style="margin:10px 0 6px 18px;line-height:1.7">
+          <li><b>Gel X Full Set — $20</b>.</li>
+          <li><b>Duration:</b> ~90 minutes.</li>
+          <li><b>Payment:</b> Cash or Venmo at appointment.</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2 style="margin:6px 0 14px">2) Book right here</h2>
+        <div class="sched" id="scheduler">
+          <!-- Calendly inline widget (more robust mobile loader) -->
+          <a id="calendly-fallback" class="cta" href="https://calendly.com/sophia-kushlak/nail-appointment?month=2025-09" target="_blank" rel="noopener" style="display:none;margin:10px 0 14px;">Tap to open booking</a>
+          <div id="calendly-inline" class="calendly-inline-widget" data-url="https://calendly.com/sophia-kushlak/nail-appointment?month=2025-09&date=2025-09" style="min-width:320px;height:720px;"></div>
+        </div>
+        <script>
+          (function(){
+            function initCalendly(){
+              if (window.Calendly && window.Calendly.initInlineWidgets) {
+                try{ window.Calendly.initInlineWidgets(); }catch(e){}
+              }
+            }
+            function showFallbackIfNoIframe(){
+              var box = document.getElementById('calendly-inline');
+              var hasFrame = box && box.querySelector('iframe');
+              if(!hasFrame){
+                var fb = document.getElementById('calendly-fallback');
+                if(fb) fb.style.display = 'inline-flex';
+              }
+            }
+            // Load script if missing
+            var src = 'https://assets.calendly.com/assets/external/widget.js';
+            if(!document.querySelector('script[src*="assets.calendly.com/assets/external/widget.js"]')){
+              var s = document.createElement('script');
+              s.src = src; s.async = true; s.onload = function(){ initCalendly(); setTimeout(showFallbackIfNoIframe, 1500); };
+              document.head.appendChild(s);
+            } else {
+              initCalendly(); setTimeout(showFallbackIfNoIframe, 1500);
+            }
+            // Also check again after page load (mobile Safari timing)
+            window.addEventListener('load', function(){ setTimeout(showFallbackIfNoIframe, 1800); });
+          })();
+        </script>
+        <p class="note">If the embedded calendar doesn’t show on your phone, just tap the button above to open the full booking page. 💗</p>
+      </section>
+
+      <section class="card">
+        <h2 style="margin:6px 0 10px">Contact</h2>
+        <ul style="margin:0 0 6px 18px;line-height:1.7">
+          <li><b>Contact Me Via Insta:</b> @nailsbysophiaunh. Can’t wait to do your nails! – Sophia 💖</li>
+
+
+        </ul>
+      </section>
+
+      <div class="footer">Made with 💅, ✨ and good vibes • © 2025 Sophia’s Nail Studio</div>
+    </div>
+  </body>
+</html>
